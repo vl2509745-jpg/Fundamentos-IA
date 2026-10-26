@@ -1,0 +1,101 @@
+{
+  "escenarios": [
+    {
+      "origen": "Chalco",
+      "destino": "Cuautla",
+      "costo": 75.11000000000001,
+      "ruta": "Chalco > Juchitepec > Tepetlixpa > Totolapan > Atlatlahucan > Cuautla",
+      "exp_dij": 15,
+      "exp_a": 12,
+      "t_dij": 0.020460066666411574,
+      "t_a": 0.03676955333380268
+    },
+    {
+      "origen": "Chalco",
+      "destino": "Ecatzingo",
+      "costo": 54.415000000000006,
+      "ruta": "Chalco > Juchitepec > Tepetlixpa > Atlautla > Ecatzingo",
+      "exp_dij": 11,
+      "exp_a": 10,
+      "t_dij": 0.01487208333420161,
+      "t_a": 0.03068589333338423
+    },
+    {
+      "origen": "Cocotitlán",
+      "destino": "Tepoztlán",
+      "costo": 82.88099999999999,
+      "ruta": "Cocotitlán > Tlalmanalco > Amecameca > Ozumba > Tepetlixpa > Totolapan > Tlalnepantla (Mor.) > Tepoztlán",
+      "exp_dij": 16,
+      "exp_a": 13,
+      "t_dij": 0.020864150000079462,
+      "t_a": 0.03666575333359864
+    },
+    {
+      "origen": "Amecameca",
+      "destino": "Yecapixtla",
+      "costo": 47.881,
+      "ruta": "Amecameca > Ozumba > Atlautla > Ecatzingo > Yecapixtla",
+      "exp_dij": 14,
+      "exp_a": 10,
+      "t_dij": 0.02015133999966186,
+      "t_a": 0.03633193000050975
+    },
+    {
+      "origen": "Tlalmanalco",
+      "destino": "Atlatlahucan",
+      "costo": 51.721000000000004,
+      "ruta": "Tlalmanalco > Amecameca > Ozumba > Tepetlixpa > Totolapan > Atlatlahucan",
+      "exp_dij": 12,
+      "exp_a": 10,
+      "t_dij": 0.017619453331860768,
+      "t_a": 0.029759619998988757
+    },
+    {
+      "origen": "Ayapango",
+      "destino": "Cuautla",
+      "costo": 60.486000000000004,
+      "ruta": "Ayapango > Amecameca > Ozumba > Tepetlixpa > Totolapan > Atlatlahucan > Cuautla",
+      "exp_dij": 15,
+      "exp_a": 11,
+      "t_dij": 0.021899399999843656,
+      "t_a": 0.03762860999993715
+    }
+  ],
+  "admisibilidad": {
+    "pares": 256,
+    "violaciones": 0,
+    "razon_max_h_sobre_real": 0.8683156190414794,
+    "consistente": true
+  },
+  "red_grande": {
+    "dijkstra": 780.25,
+    "astar": 185.925,
+    "nodos": 1498
+  },
+  "peso_heuristica": {
+    "w": [
+      1.0,
+      1.25,
+      1.5,
+      2.0,
+      3.0,
+      5.0
+    ],
+    "costo": [
+      75.11000000000001,
+      75.11000000000001,
+      75.11000000000001,
+      75.11000000000001,
+      75.11000000000001,
+      75.11000000000001
+    ],
+    "expandidos": [
+      12,
+      8,
+      7,
+      6,
+      6,
+      6
+    ]
+  }
+}
