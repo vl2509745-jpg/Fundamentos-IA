@@ -1,0 +1,7 @@
+origen,destino,costo,ruta,exp_dij,exp_a,t_dij,t_a
+Chalco,Cuautla,75.11000000000001,Chalco > Juchitepec > Tepetlixpa > Totolapan > Atlatlahucan > Cuautla,15,12,0.020460066666411574,0.03676955333380268
+Chalco,Ecatzingo,54.415000000000006,Chalco > Juchitepec > Tepetlixpa > Atlautla > Ecatzingo,11,10,0.01487208333420161,0.03068589333338423
+Cocotitlán,Tepoztlán,82.88099999999999,Cocotitlán > Tlalmanalco > Amecameca > Ozumba > Tepetlixpa > Totolapan > Tlalnepantla (Mor.) > Tepoztlán,16,13,0.020864150000079462,0.03666575333359864
+Amecameca,Yecapixtla,47.881,Amecameca > Ozumba > Atlautla > Ecatzingo > Yecapixtla,14,10,0.02015133999966186,0.03633193000050975
+Tlalmanalco,Atlatlahucan,51.721000000000004,Tlalmanalco > Amecameca > Ozumba > Tepetlixpa > Totolapan > Atlatlahucan,12,10,0.017619453331860768,0.029759619998988757
+Ayapango,Cuautla,60.486000000000004,Ayapango > Amecameca > Ozumba > Tepetlixpa > Totolapan > Atlatlahucan > Cuautla,15,11,0.021899399999843656,0.03762860999993715
